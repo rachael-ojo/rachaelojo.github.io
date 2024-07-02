@@ -50,29 +50,30 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: url('https://gitlens.github.io/images/gitlens.gif') no-repeat center center/cover;
-    height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    color: #fff;
-    padding: 0 20px;
+    justify-content: space-between;
+    background: #f4f4f4;
+    padding: 60px 20px 20px;
     margin-top: 60px; /* Offset for the fixed navbar */
 }
 
-.hero-section h1 {
-    font-size: 3em;
+.hero-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
     margin-bottom: 10px;
 }
 
-.hero-section p {
+.hero-content p {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
 
-.hero-section .cta-button {
+.hero-content .cta-button {
     background: #007bff;
     color: #fff;
     padding: 10px 20px;
@@ -81,8 +82,20 @@ body {
     border-radius: 5px;
 }
 
-.hero-section .cta-button:hover {
+.hero-content .cta-button:hover {
     background: #0056b3;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Main Sections */
