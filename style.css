@@ -8,6 +8,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background: url('/c/Users/Dell/Desktop/New folder (10)/icon.png') no-repeat center center fixed;
+    background-size: cover;
 }
 
 /* Navbar */
@@ -53,7 +55,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #f4f4f4;
+    background: rgba(244, 244, 244, 0.8); /* Semi-transparent background for better text readability */
     padding: 60px 20px 20px;
     margin-top: 60px; /* Offset for the fixed navbar */
 }
@@ -101,7 +103,7 @@ body {
 /* Main Sections */
 main {
     padding: 40px 20px;
-    background: #f4f4f4;
+    background: rgba(244, 244, 244, 0.8); /* Semi-transparent background for better text readability */
 }
 
 section {
